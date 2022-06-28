@@ -57,7 +57,7 @@ def randomip():
   randip.append(randip15)
   randip.append(randip16)
 
-  randip = str(randip[0]) + "." + str(randip[1]) + "." + str(randip[2]) + "." + str(randip[3]) + "." + str(randip[4]) + "." + str(randip[5]) + "." + str(randip[6]) + "." + str(randip[7]) + "." + str(randip[8]) + "." + str(randip[9]) + "." + str(randip[10]) + "." + str(randip[11]) + "." + str(randip[12]) + "." + str(randip[13]) + "." + str(randip[14]) + "." + str(randip[15]) + "." + str(randip[16])
+  randip = str(randip[0]) + "." + str(randip[1]) + "." + str(randip[2]) + "." + str(randip[3]) + "." + str(randip[4])
   return(randip)
   
 print('[</>] Start Attacking {} [</>]'.format(ip))

